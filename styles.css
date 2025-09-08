@@ -63,6 +63,7 @@ h4{
     gap: 15px;
     font-weight: bold;
     font-size: 20px;
+    margin-right: 10px;
 }
 .menu{
     display: flex;
@@ -176,8 +177,9 @@ button{
     background-color: white;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid rgba(255, 166, 0, 0.65);
 }
 .card > .card-header{
     margin: 10px 10px 0 10px;
@@ -204,7 +206,7 @@ button{
 .announcement-list{
     background-color: white;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 5px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -227,7 +229,7 @@ button{
     height: 100%;
     background-color: white;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .trending-item{
     display: flex;
