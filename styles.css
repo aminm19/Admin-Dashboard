@@ -7,6 +7,14 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
+p{
+    font-size: 12px;
+    color: #333;
+}
+h4{
+    padding-top: 15px;
+    padding-left: 5px;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -14,19 +22,36 @@ body{
 }
 .sidebar{
     grid-column: 1 / 2;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 20px;
+    height: 100vh;
+}
+.topLogo{
+    padding-top: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 .main-content{
-    padding: 20px;
     height: 100vh;
     grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr;
 }
-.searchbar{
-    grid-row: 1 / 2;
+.overview{
+    /* grid-row: 1 / 2; */
     display: flex;
-    align-items: space-between;
+    flex-direction: column;
+    padding: 15px;
 }
 .top-row{
     display: flex;
@@ -34,14 +59,25 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#searchbar{
+    border: none;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: rgba(128, 128, 128, 0.187);
+    width: 35vw;
+}
 .bottom-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+.buttons{
+    margin-left: auto;
+}
 .grids{
-    grid-row: 2 / 3;
+    /* grid-row: 2 / 3; */
+    padding: 15px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -54,7 +90,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
+    padding: 15px;
 }
 .announcements{
     grid-column: 2 / 3;

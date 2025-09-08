@@ -9,7 +9,10 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="logo">placeholder</div>
+            <div class="topLogo">
+                <div class="logo"></div>
+                <span class="logoText">Dashboard</span>
+            </div>
             <div class="menu">
                 <div class="topMenu">
                     <div class="menuItem">
@@ -54,17 +57,17 @@
             </div>
         </div>
         <div class="main-content">
-            <div class="search-bar">
+            <div class="overview">
                 <div class="top-row">
                 <div class="searchInput">
                     <div class="searchIcon"></div>
-                    <input type="text" placeholder="Search...">
+                    <input id="searchbar" type="text">
                 </div>
                 <div class="profileSection">
                     <div class="notifications"></div>
                     <div class="profilePic"></div>
                     <div class="userInfo">
-                        <span class="userName">John Doe</span>
+                        <span class="userName">Morgan Oakley</span>
                     </div>
                 </div>
             </div>
@@ -72,7 +75,7 @@
                 <div class="profilePic" id="greetingPic"></div>
                 <div class="greeting">
                     <p class="hi">Hi there,</p>
-                    <h2 class="name">Morgan Oakley (@morgan)</h2>
+                    <h3 class="name">Morgan Oakley (@morgan)</h3>
                 </div>
                 <div class="buttons">
                     <button class="btn primary">New</button>
@@ -83,134 +86,134 @@
             </div>
             <div class="grids">
                 <div class="projects">
-                    <h2>Projects</h2>
+                    <h3>Projects</h3>
                     <div class="project-cards">
                         <div class="card">
                             <div class="card-header">
-                                <h3>Project Title</h3>
-                                <span class="status">Active</span>
+                                <h4>Super Cool Project</h4>
                             </div>
                             <div class="card-body">
-                                <p>Project description goes here. It provides a brief overview of the project.</p>
+                                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
                             </div>
                             <div class="card-footer">
-                                <span class="date">Due Date: 2024-12-31</span>
-                                <span class="members">Members: 5</span>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h3>Project Title</h3>
-                                <span class="status">Active</span>
+                                <h4>Less Cool Project</h4>
                             </div>
                             <div class="card-body">
-                                <p>Project description goes here. It provides a brief overview of the project.</p>
+                                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
                             </div>
                             <div class="card-footer">
-                                <span class="date">Due Date: 2024-12-31</span>
-                                <span class="members">Members: 5</span>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h3>Project Title</h3>
-                                <span class="status">Active</span>
+                                <h4>Impossible App</h4>
                             </div>
                             <div class="card-body">
-                                <p>Project description goes here. It provides a brief overview of the project.</p>
+                                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
                             </div>
                             <div class="card-footer">
-                                <span class="date">Due Date: 2024-12-31</span>
-                                <span class="members">Members: 5</span>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h3>Project Title</h3>
-                                <span class="status">Active</span>
+                                <h4>Easy Peasy App</h4>
                             </div>
                             <div class="card-body">
-                                <p>Project description goes here. It provides a brief overview of the project.</p>
+                                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
                             </div>
                             <div class="card-footer">
-                                <span class="date">Due Date: 2024-12-31</span>
-                                <span class="members">Members: 5</span>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h3>Project Title</h3>
-                                <span class="status">Active</span>
+                                <h4>Ad Blocker</h4>
                             </div>
                             <div class="card-body">
-                                <p>Project description goes here. It provides a brief overview of the project.</p>
+                                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
                             </div>
                             <div class="card-footer">
-                                <span class="date">Due Date: 2024-12-31</span>
-                                <span class="members">Members: 5</span>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h3>Project Title</h3>
-                                <span class="status">Active</span>
+                                <h4>Money Maker</h4>
                             </div>
                             <div class="card-body">
-                                <p>Project description goes here. It provides a brief overview of the project.</p>
+                                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
                             </div>
                             <div class="card-footer">
-                                <span class="date">Due Date: 2024-12-31</span>
-                                <span class="members">Members: 5</span>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="announcements">
-                    <h2>Announcements</h2>
+                    <h3>Announcements</h3>
                     <div class="announcement-list">
                         <div class="announcement">
-                            <h3>Announcement Title</h3>
-                            <p>Announcement description goes here. It provides details about the announcement.</p>
+                            <h5>Site Maintenance</h5>
+                            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
                         </div>
                         <div class="announcement">
-                            <h3>Announcement Title</h3>
-                            <p>Announcement description goes here. It provides details about the announcement.</p>
+                            <h5>Community Share Day</h5>
+                            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor.</p>
                         </div>
                         <div class="announcement">
-                            <h3>Announcement Title</h3>
-                            <p>Announcement description goes here. It provides details about the announcement.</p>
+                            <h5>Updated Privacy Policy</h5>
+                            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
                         </div>
                     </div>
                 </div>
                 <div class="trending">
-                    <h2>Trending</h2>
+                    <h3>Trending</h3>
                     <div class="trending-list">
                         <div class="trending-item">
                             <div class="profilePic"></div>
                             <div class="userInfo">
-                                <h3>Trending Topic 1</h3>
-                                <p>Details about trending topic 1.</p>
+                                <h5>@tegan</h5>
+                                <p>World Peace Builder</p>
                             </div>
                         </div>
                         <div class="trending-item">
                             <div class="profilePic"></div>
                             <div class="userInfo">
-                                <h3>Trending Topic 2</h3>
-                                <p>Details about trending topic 2.</p>
+                                <h5>@morgan</h5>
+                                <p>Super Cool Project</p>
                             </div>
                         </div>
                         <div class="trending-item">
                             <div class="profilePic"></div>
                             <div class="userInfo">
-                                <h3>Trending Topic 3</h3>
-                                <p>Details about trending topic 3.</p>
+                                <h5>@kendall</h5>
+                                <p>Life Changing App</p>
                             </div>
                         </div>
                         <div class="trending-item">
                             <div class="profilePic"></div>
                             <div class="userInfo">
-                                <h3>Trending Topic 4</h3>
-                                <p>Details about trending topic 4.</p>
+                                <h5>@alex</h5>
+                                <p>No Traffic Maker</p>
                             </div>
                         </div>
                     </div>
