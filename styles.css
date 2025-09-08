@@ -87,14 +87,14 @@ h4{
 .main-content{
     height: 100%;
     grid-column: 2 / 3;
-    display: flex;
     flex-direction: column;
     display: grid;
+    grid-template-rows: auto 1fr;
 }
 .overview{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 15px;
     background-color: white;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
